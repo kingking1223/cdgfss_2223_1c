@@ -1,1 +1,1 @@
-# cdgfss_2223_1c
+Website for class 1c, year 2223, CDGFSS.
