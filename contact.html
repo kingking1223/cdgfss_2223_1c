@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Website of Class 1C - 22-23 CDGFSS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ad4abdd257.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="index.html"><img src="assets/1c-logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <!-- <li><a href="">ABOUT</a></li> -->
+                    <li><a href="photo.html">PHOTOS</a></li>
+                    <li><a href="featured.html">FEATURED</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+    <section class="title">
+        <h2>CDGFSS</h2>
+    </section>
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1845.3711078122158!2d114.25428481324464!3d22.325587002231696!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404040e50a32e3b%3A0x67d7e23909989639!2sCarmel%20Divine%20Grace%20Foundation%20Secondary%20School!5e0!3m2!1sen!2shk!4v1666430537752!5m2!1sen!2shk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Po Lam Estate, Tseung Kwan O, N.T.</h5>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+852 2701 0908</h5>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>info@school.cdgfss.edu.hk</h5>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col"></div>
+        </div>
+    </section>
+
+    <section class="subt">
+        <h3>Found a bug on this website?</h3>
+        <h5>Report to us</h5>
+    </section>
+
+    <section class="ct">
+        <div class="row">
+            <div class="ct-col">
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+852 9206 0247</h5>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>cdg220055@school.cdgfss.edu.hk</h5>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col"></div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>Disclaimer</h4>
+        <p>This website is not, in any way related to CDGFSS itself. This website only serve as a platform to post the photos of class 1C and to let others know our class better.<br>Please do not contact the school about the matter of this website and our class. If you would like to express your opinion<br>about the website, please contact the website owner, King Leung by the contact method provided in the "Found a bug on this website?" section of the contact page.<br>We are not responsible for any inconveience caused by anyone contacting the school for non-school-related matters.</p>
+        <h4>About the website</h4>
+        <p>In the modern world, a single board decoration is not enough to show all we want to show, and it is also time to be more modern.<br>Thus, this website was made so that we can post our photos better and let others know our class better and easier.</p>
+        <p>Made by King</p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right= "-200px"
+        }
+    </script>
+
+</body>
+</html>

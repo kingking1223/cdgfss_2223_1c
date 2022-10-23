@@ -1,0 +1,62 @@
+<!-- Work in progress, do not touch -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Website of Class 1C - 22-23 CDGFSS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css"> 
+</head>
+
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="index.html"><img src="assets/1c-logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">PHOTOS</a></li>
+                    <!-- <li><a href="">FEATURED</a></li> -->
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About</h1>
+    </section>
+
+    <section class="about">
+        <div class="row">
+            <div class="about-col">
+                <h1>Get on with the trend</h1>
+                <p>The era of internet has arrived. One single yellow sheet is not enough to show everything. The board will not look good if we print 32 pictures of our classmates and post it on the board. Since virtually all of us has a phone, making the website is certainly the best way to promote our class</p>
+            </div>
+            <div class="about-col">
+                <img src="assets/phone.png">
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>About the website</h4>
+        <p>In the modern world, a single board decoration is not enough to show all we want to show, and it is also time to be more modern.<br>Thus, this website was made so that we can post our photos better and let others know our class better and easier.</p>
+        <p>Made by King</p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right= "-200px"
+        }
+    </script>
+
+</body>
+</html>

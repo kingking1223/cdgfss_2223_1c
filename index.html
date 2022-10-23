@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Website of Class 1C - 22-23 CDGFSS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ad4abdd257.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="assets/1c-logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <!-- <li><a href="">ABOUT</a></li> -->
+                    <li><a href="photo.html">PHOTOS</a></li>
+                    <li><a href="featured.html">FEATURED</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h2>We are Class 1C!</h2>
+        <p>Website and internet are the new technologies everyone is using. Thus, we have made a website specificly for our class.</p>
+        <a href="photo.html" class="hero-btn">Our Class Photos</a>
+    </div>
+    </section>
+
+    <section class="featured">
+        <h1>Featured:</h1>
+        <h2>Miss Lam: Get well soon, we miss you!</h2>
+        <div class="row">
+            <div class="featured-col">
+                <h3>Show your talents!</h3>
+                <p>What talents or interest does our classmates have? Visit photos to find out!</p>
+            </div>
+            <div class="featured-col">
+                <h3>Miss Lam: Get well soon, we miss you!</h3>
+                <p>One of our class teacher, Miss Lam is suffering from illness. What does our classmates wants to say to her?</p>
+            </div>
+        </div>
+        <h4>Visit the featured page to learn more</h4>
+    </section>
+
+    <section class="footer">
+        <h4>Disclaimer</h4>
+        <p>This website is not, in any way related to CDGFSS itself. This website only serve as a platform to post the photos of class 1C and to let others know our class better.<br>Please do not contact the school about the matter of this website and our class. If you would like to express your opinion<br>about the website, please contact the website owner, King Leung by the contact method provided in the "Found a bug on this website?" section of the contact page.<br>We are not responsible for any inconveience caused by anyone contacting the school for non-school-related matters.</p>
+        <h4>About the website</h4>
+        <p>In the modern world, a single board decoration is not enough to show all we want to show, and it is also time to be more modern.<br>Thus, this website was made so that we can post our photos better and let others know our class better and easier.</p>
+        <p>Made by King</p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right= "-200px"
+        }
+    </script>
+
+</body>
+</html>

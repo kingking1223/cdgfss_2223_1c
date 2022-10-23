@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Website of Class 1C - 22-23 CDGFSS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ad4abdd257.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="index.html"><img src="assets/1c-logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <!-- <li><a href="">ABOUT</a></li> -->
+                    <li><a href="photo.html">PHOTOS</a></li>
+                    <li><a href="featured.html">FEATURED</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Featured</h1>
+    </section>
+
+    <section class="testi">
+        <h1>What our classmates wants to say to Miss Lam</h1>
+        <h4>The blessings to Miss Lam</h4>
+        <p>Date: 23 Oct 2022</p>
+        <div class="row">
+            <div class="testi-col">
+                <div>
+                    <p>We all prayed for you in the BIK lesson.Please come back soon!</p>
+                    <h3>Tony Ma</h3>
+                </div>
+            </div>
+            <div class="testi-col">
+                <div>
+                    <p>We all miss you by a lot and we hope that you can come back as soon as possible!</p>
+                    <h3>King Leung</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="testi-col">
+                <div>
+                    <p>Everything is doing great, we miss you and we wish you to recover soon.</p>
+                    <h3>Max Wong</h3>
+                </div>
+            </div>
+            <div class="testi-col">
+                <div>
+                    <p>All of us are worried about you and we hope you come back soon.</p>
+                    <h3>Kanice Cheang</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sel-pho">
+        <h1>Show your talents photos</h1>
+        <h4>Here are some of the <i>show your talents</i> photos. For the full collection, please visit the photo page.</h4>
+        <p>Date: 23 Oct 2022</p>
+
+        <div class="row">
+            <div id="content">
+                <div class="1">
+                    <div class="self-pho-col">
+                        <img src="assets/02.png">
+                        <h4>Kanice Cheang</h4>
+                    </div>
+                    <div class="self-pho-col">
+                        <img src="assets/04.jpg">
+                        <h4>Tracy Guan</h4>
+                    </div>
+                    <div class="self-pho-col">
+                        <img src="assets/09.JPG">
+                        <h4>Zoe Lin</h4>
+                    </div>
+                </div>
+                <div class="2">
+                    <div class="self-pho-col">
+                        <img src="assets/17.jpeg">
+                        <h4>Wayne Cheng</h4>
+                    </div>
+                    <div class="self-pho-col">
+                        <img src="assets/20.JPG">
+                        <h4>Anthony Hui</h4>
+                    </div>
+                    <div class="self-pho-col">
+                        <img src="assets/22.jpeg">
+                        <h4>Louis Kwok</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>About the website</h4>
+        <p>In the modern world, a single board decoration is not enough to show all we want to show, and it is also time to be more modern.<br>Thus, this website was made so that we can post our photos better and let others know our class better and easier.</p>
+        <p>Made by King</p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right= "-200px"
+        }
+    </script>
+
+</body>
+</html>
