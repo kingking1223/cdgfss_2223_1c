@@ -1,3 +1,8 @@
+# Nov 2022
+## 6 Nov 2022
+
+15:38 6 Nov 2022: Fixed typo in all pages: "inconveience" > "inconvenience"
+
 # Oct 2022
 ## 25 Oct 2022
 
